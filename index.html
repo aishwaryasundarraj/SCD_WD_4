@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>To-Do List</title>
+  <title>Todo List</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="https://cdn.dribbble.com/users/14171369/screenshots/20488800/005_to_do_list_icon.png">
 </head>
 <body>
   <div class="container">
@@ -13,6 +12,10 @@
     <div class="input-group">
       <input type="text" id="todoInput" placeholder="Add a new task..." />
       <button id="addTodoButton">Add</button>
+    </div>
+    <div class="date-time-row">
+      <input type="date" id="todoDate" />
+      <input type="time" id="todoTime" />
     </div>
     <div class="filter-group">
       <button class="filter-btn active" data-filter="all">All</button>
